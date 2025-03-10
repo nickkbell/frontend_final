@@ -287,6 +287,10 @@ header {
   margin-left: 13px;
 }
 
+.more-link:hover img, .text-decoration-none.text-warning:hover img {
+  transform: translateX(5px);
+}
+
 .navbar {
   background-color: transparent;
   position: absolute;
@@ -461,14 +465,13 @@ body.nav-active .menu-icon__line-right {
 }
 
 .list-unstyled li a:hover,
-.d-flex.align-items-center:hover {
+.social-link:hover {
   color: #ffc107 !important;
-  font-weight: 700 !important;
   transition: all 0.2s ease;
 }
 
 .footer-icon {
   padding-right: 10px;
-  max-width: 21px;
-  max-height: 21px;
+  width: 25px;
+  height: 25px;
 }/*# sourceMappingURL=styles.css.map */
