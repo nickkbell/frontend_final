@@ -19,7 +19,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
-  min-height: 700px;
+  min-height: 1000px;
   position: relative;
   display: flex;
   padding-top: 150px;
